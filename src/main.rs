@@ -19,5 +19,7 @@ enum TokenType {
 fn main() {
     let args = Args::parse();
 
+    
+
     println!("Hello {}!", args.token);
 }
